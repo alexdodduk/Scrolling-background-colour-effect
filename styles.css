@@ -30,7 +30,8 @@ h1 {
     padding: 1em 0;
 }
 
-header h1 {
+header h1,
+footer h1 {
     line-height: 3em;
 }
 
