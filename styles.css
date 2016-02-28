@@ -1,0 +1,47 @@
+body {
+    position: relative;
+    margin: 0;
+    background: #777;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+}
+
+#info {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-indez: 1;
+    color: white;
+}
+
+h1 {
+    color: #FFF;
+    font-size: 10em;
+    line-height: 1em;
+    margin: 0;
+    padding: 1em 0;
+}
+
+header h1 {
+    line-height: 3em;
+}
+
+.blue {
+    background: #25adff;
+}
+
+.green {
+    background: #57d781;
+}
+
+.pink {
+    background: #fba6c9;
+}
